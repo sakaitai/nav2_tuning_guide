@@ -1,15 +1,16 @@
 # nav2_tuning_guide
-ロボットのナビゲーションを調整するためのドキュメント. 以下の一部ファイル名およびコマンドは, orne-boxを基準にしています.
+
+ROS 2 Humble を用いたナビゲーション調整のためのドキュメントです。  
+一部のファイル名およびコマンドは、orne-box3 を基準にしています。
+
 ## 目次
 
 - パッケージ別パラメータ調整
-  - icart（オドメトリ調整）
-  - AMCL（自己位置推定）
-  - Planner（経路計画）
-  - Controller（追従制御）
-  - Costmap
-  - BT Navigator
-  - Behavior Server
-  - Waypoint Follower
+  - localization（自己位置推定）
+  - planner（経路計画）
+  - controller（追従制御）
+  - costmap
+  - waypoint
+  - odometry
 - 地図作成
-- Troubleshooting
+- troubleshooting
